@@ -1,0 +1,24 @@
+.global {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 28px;
+}
+.global td, .global th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .global tr:nth-child(){background-color: #f2f2f2;}
+  
+  .global tr:hover {background-color: #ddd;}
+  
+  .global th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
